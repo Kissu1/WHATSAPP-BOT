@@ -8,7 +8,7 @@ const axios = require('axios');
 async function getTrackingDetails(trackingService, trackingNumber) {
     let mainconfig = {
         method: 'get',
-        url: `https://sjcourierapi.deta.dev/${trackingService}/${trackingNumber}` //Feel free to use this API for your own use.
+        url: `https://courier.deta.dev/${trackingService}/${trackingNumber}` //Feel free to use this API for your own use.
     };
     console.log(mainconfig.url);
     let statusString = "Unable to get information for your shipment. Please check the tracking id or try again later!"

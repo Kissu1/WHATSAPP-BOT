@@ -58,6 +58,7 @@
 - **shorten** - Get Short URL
 - **ocr** - Extract Text from Image
 - **courier** - Fetches latest status of Courier/Shipments from multiple providers
+- **analysis** - Fetches latest analysis of a CryptoCurrency
 
 [More modules]("https://github.com/tuhinpal/WhatsBot/wiki/Commands")
 
